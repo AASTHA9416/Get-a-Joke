@@ -2,7 +2,7 @@
 
 Technology StackBackend: Node.js, Express.jsTemplating Engine: EJS (Embedded JavaScript)HTTP Client: AxiosPackage Manager: npm🚀
  Setup and InstallationTo get a local copy up and running, follow these simple steps.PrerequisitesMake sure you have Node.js and npm installed on your machine.
- Node.jsInstallationClone the repository:git clone https://github.com/your-username/your-repository-name.git
+ Node.jsInstallationClone the repository:git clone repo url
 
 Navigate to the project directory:cd your-repository-name
 
