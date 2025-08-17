@@ -2,9 +2,9 @@
 
 Technology StackBackend: Node.js, Express.jsTemplating Engine: EJS (Embedded JavaScript)HTTP Client: AxiosPackage Manager: npm🚀
  Setup and InstallationTo get a local copy up and running, follow these simple steps.PrerequisitesMake sure you have Node.js and npm installed on your machine.
- Node.jsInstallationClone the repository:git clone repo url
+ Node.jsInstallationClone the repository:git clone repo-url
 
-Navigate to the project directory:cd your-repository-name
+Navigate to the project directory:cd repository-name
 
 Install NPM packages:npm install
 
@@ -32,16 +32,3 @@ API ReferenceThis project utilizes the public JokeAPI to fetch random jokes.Endp
     "safe": true,
     "lang": "en"
 }
-📂 Project Structureyour-repository-name/
-├── node_modules/
-├── public/
-│   ├── images/
-│   └── styles/
-│       └── main.css
-├── views/
-│   └── index.ejs
-├── .gitignore
-├── index.js
-├── package.json
-└── README.md
-🤝 ContributingContributions, issues, and feature requests are welcome! Feel free to check the issues page if you want to contribute.📜 LicenseThis project is licensed under the MIT License. See the LICENSE file for details.
