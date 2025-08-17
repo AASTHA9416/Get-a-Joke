@@ -1,34 +1,53 @@
-😂 Random Joke GeneratorA simple and fun web application built with Node.js that fetches and displays a random joke. The punchline is cleverly hidden and is revealed only when the user hovers over the setup, creating an interactive experience.✨ FeaturesRandom Joke Fetching: Gets a new joke with a setup and a punchline from an external API with a single click.Interactive UI: The joke's punchline is initially hidden and is revealed with a smooth fade-in effect on hover.Minimalist Design: A clean and simple interface that focuses on the content.Server-Side Rendering: Uses EJS to dynamically render the joke content on the server.🛠️ 
+=========================
+😂 Random Joke Generator
+=========================
 
-Technology StackBackend: Node.js, Express.jsTemplating Engine: EJS (Embedded JavaScript)HTTP Client: AxiosPackage Manager: npm🚀
- Setup and InstallationTo get a local copy up and running, follow these simple steps.PrerequisitesMake sure you have Node.js and npm installed on your machine.
- Node.jsInstallationClone the repository:git clone repo-url
+A simple and fun web application built with Node.js that fetches and displays a random joke. The punchline is cleverly hidden and is revealed only when the user hovers over the setup, creating an interactive experience.
 
-Navigate to the project directory:cd repository-name
+-----------
+## Features
+-----------
+* Fetches a random joke with a setup and a punchline from an external API.
+* The punchline is revealed with a smooth fade-in effect on hover.
+* Dynamically renders the joke content on the page using EJS templates.
+* Clean, minimalist interface.
 
-Install NPM packages:npm install
+---------------------
+## Technology Stack
+---------------------
+* Backend: Node.js, Express.js
+* Templating Engine: EJS (Embedded JavaScript)
+* HTTP Client: Axios
+* Package Manager: npm
 
-Run the application:node index.js
+-------------------------
+## Setup and Installation
+-------------------------
 
-Or if you have nodemon installed:nodemon index.js
+To get a local copy up and running, follow these simple steps.
 
-Open your browser and navigate to http://localhost:3000.🔌 
+### Prerequisites
+Make sure you have Node.js and npm installed on your machine.
+- Node.js (https://nodejs.org/)
 
-API ReferenceThis project utilizes the public JokeAPI to fetch random jokes.Endpoint Used: GET https://v2.jokeapi.dev/joke/Any?lang=en  This endpoint returns a two-part joke (setup and delivery) from any category.Example Response:{
-    "error": false,
-    "category": "Programming",
-    "type": "twopart",
-    "setup": "Why do programmers prefer dark mode?",
-    "delivery": "Because light attracts bugs.",
-    "flags": {
-        "nsfw": false,
-        "religious": false,
-        "political": false,
-        "racist": false,
-        "sexist": false,
-        "explicit": false
-    },
-    "id": 259,
-    "safe": true,
-    "lang": "en"
-}
+### Installation
+1.  Clone the repository:
+    `git clone https://github.com/AASTHA9416/Get-a-Joke.git`
+
+2.  Navigate to the project directory:
+    `cd REPO-NAME`
+
+3.  Install NPM packages:
+    `npm install`
+
+4.  Run the application:
+    `node index.js`
+
+5.  Open your browser and navigate to http://localhost:3000.
+
+----------------
+## API Reference
+----------------
+This project utilizes the public JokeAPI to fetch random jokes.
+
+Endpoint: `GET https://v2.jokeapi.dev/joke/Any?lang=en`
